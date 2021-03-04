@@ -1,0 +1,17 @@
+.ui.modal > .close {
+    color: black;
+    top: 0;
+    right: 0 !important;
+}
+
+.actions:empty {
+    display: none;
+}
+
+.actions-default {
+    display: none;
+}
+
+.actions:empty + .actions-default {
+    display: block;
+}
